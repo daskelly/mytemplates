@@ -1,0 +1,17 @@
+---
+title: "TITLE HERE"
+author: "Dan Skelly"
+date: "Last updated `r format(Sys.time(), '%a %b %d %Y, %X %Z')`"
+output:
+  html_document:
+    code_download: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(assertthat)
+#root.dir <- "~/projects/path/to"
+#knitr::opts_knit$set(root.dir=root.dir)
+```
+
