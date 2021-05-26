@@ -9,6 +9,12 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
+# https://cran.r-project.org/web/packages/here/vignettes/here.html
+# uuid::UUIDgenerate()
+here::i_am("joint_FACS_CITE_v2.Rmd", uuid = "")
+library(here)
+
 library(tidyverse)
 library(assertthat)
 #root.dir <- "~/projects/path/to"
