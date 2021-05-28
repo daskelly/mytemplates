@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # https://cran.r-project.org/web/packages/here/vignettes/here.html
 # uuid::UUIDgenerate()
-here::i_am("joint_FACS_CITE_v2.Rmd", uuid = "")
+here::i_am("rmarkdown_doc_name.Rmd", uuid = "")
 library(here)
 
 library(tidyverse)
